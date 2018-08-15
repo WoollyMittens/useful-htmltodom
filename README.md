@@ -26,7 +26,7 @@ new HtmlToDom({
 });
 
 new HtmlToDom({
-	'url': 'html/example-template.html',
+	'url': 'http://www.woollymittens.nl/useful-htmltodom/dist/html/example-template.html',
 	'data': {
 		'firstname': 'Jane',
 		'lastname': 'Doe'

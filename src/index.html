@@ -43,7 +43,7 @@
 					};
 					var externalExample = function() {
 						new HtmlToDom({
-							'url': 'html/example-template.html',
+							'url': './html/example-template.html',
 							'data': {
 								'firstname': 'Jane',
 								'lastname': 'Doe'
@@ -52,10 +52,10 @@
 						});
 					};
 				</script>
-				<ul>
-					<li><button id="example-inline" onclick="inlineExample()">Import inline HTML template</button></li>
-					<li><button id="example-external" onclick="externalExample()">Import external HTML template</button></li>
-				</ul>
+				<nav>
+					<button id="example-inline" onclick="inlineExample()">Import inline HTML template</button>
+					<button id="example-external" onclick="externalExample()">Import external HTML template</button>
+				</nav>
 				<!-- Cut above this -->
 
 			</aside>
