@@ -82,5 +82,5 @@ var HtmlToDom = function(config) {
 };
 
 // return as a require.js module
-if (typeof define != 'undefined') define(['htmltodom'], function () { return HtmlToDom });
+if (typeof define != 'undefined') define([], function () { return HtmlToDom });
 if (typeof module != 'undefined') module.exports = HtmlToDom;

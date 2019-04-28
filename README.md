@@ -9,7 +9,26 @@ Try the <a href="http://www.woollymittens.nl/default.php?url=useful-htmltodom">d
 This include can be added to the header or placed inline before the script is invoked.
 
 ```html
-<script src="./js/htmltodom.js"></script>
+<script src="lib/requests.js"></script>
+<script src="js/htmltodom.js"></script>
+```
+
+Or use [Require.js](https://requirejs.org/).
+
+```js
+requirejs([
+	'lib/requests.js',
+	'js/htmltodom.js'
+], function(requests, HtmlToDom) {
+	...
+});
+```
+
+Or import into an MVC framework.
+
+```js
+var requests = require('lib/requests.js');
+var HtmlToDom = require('js/htmltodom.js');
 ```
 
 ## How to start the script
