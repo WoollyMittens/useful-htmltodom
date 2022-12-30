@@ -2,8 +2,6 @@
 
 Convert imported text into HTML DOM elements.
 
-Try the <a href="http://www.woollymittens.nl/default.php?url=useful-htmltodom">demo</a>.
-
 ## How to include the script
 
 This include can be added to the header or placed inline before the script is invoked.
